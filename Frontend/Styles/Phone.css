@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: sans-serif;
+	font-size: 62.5%;
+}
+
+header{
+	text-align: center;
+	font-size: 2rem;
+	padding: 20px 0px;
+	margin-bottom: 10px;
+	background-color: #44AAB3;
+}
+
+.products{
+	display: grid;
+	grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+
+	width: 100%;
+
+
+}
+
+.products > div{
+	background-color: #E6BF6E;
+	min-height: 20vh;
+	margin: 6px;
+}
